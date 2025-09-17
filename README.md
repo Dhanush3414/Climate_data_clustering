@@ -25,3 +25,27 @@ You can open the notebook directly in **Google Colab** (recommended):
 ```bash
 # Upload the notebook to Google Drive or GitHub
 # Then open it in Colab and run all cells
+
+
+### 🚀 Run Locally
+
+To run this project on your local machine, copy and run the following commands:
+
+```bash
+# 1. Clone the repository
+git clone https://github.com/your-username/climate-data-clustering.git
+cd climate-data-clustering
+
+# 2. (Optional) Create and activate a virtual environment
+python -m venv venv
+# On Mac/Linux
+source venv/bin/activate
+# On Windows
+venv\Scripts\activate
+
+# 3. Install dependencies
+pip install -r requirements.txt
+
+# 4. Launch Jupyter Notebook
+jupyter notebook Climate_Data_Clustering.ipynb
+
